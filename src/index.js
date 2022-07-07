@@ -13,8 +13,8 @@ root.render(
       <Header />
       <main className='wrapper'>
         <Routes>
-          <Route path='/github-reps' element={<MainPage/>} />
-          <Route path='/github-reps/searched/:search' element={<SearchedPage />} />
+          <Route path='/github-repos' element={<MainPage/>} />
+          <Route path='/github-repos/searched/:search' element={<SearchedPage />} />
         </Routes>
       </main>
     </BrowserRouter>

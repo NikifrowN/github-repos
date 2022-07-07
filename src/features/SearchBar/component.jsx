@@ -9,7 +9,7 @@ export const SearchBar = () => {
 
    const submitHandler = (e) => {
       e.preventDefault();
-      navigate('/github-reps/searched/' + input);
+      navigate('/github-repos/searched/' + input);
    };
 
    return(

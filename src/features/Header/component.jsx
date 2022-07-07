@@ -7,7 +7,7 @@ export const Header = () => (
    <header className={styles.root}>
       <div className={styles.container}>
          <div className={styles.logo}>
-            <NavLink to={'/github-reps/'}>
+            <NavLink to={'/github-repos/'}>
                <img src={Logo} alt="logo"/>
             </NavLink>
             <p>GitHub repositories search</p>
