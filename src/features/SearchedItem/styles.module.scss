@@ -1,0 +1,45 @@
+.root {
+   color: var(--lightTextColor);
+   background-color: var(--headerBackground);
+   padding: 2rem 3rem;
+   border-radius: 0.5rem;
+   margin-bottom: 1rem;
+}
+
+.title {
+   font-size: 2rem;
+   transition: all 0.3s ease;
+   color: var(--mainTextColor);
+   
+   a {
+      transition: all 0.3s ease;
+
+      &:hover{
+         color: var(--lightTextColor);
+      }
+   }
+}
+
+.info {
+   margin-top: 1rem;
+   display: flex;
+   gap: 3rem;
+}
+
+.infoItem {
+   display: flex;
+   gap: 0.5rem;
+   align-items: center;
+
+   img {
+      max-height: 1.5rem;
+   }
+
+   p {
+      font-size: 1.5rem;
+   }
+
+   span {
+      color: var(--mainTextColor);
+   }
+}

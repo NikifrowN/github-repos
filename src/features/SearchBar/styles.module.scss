@@ -1,0 +1,24 @@
+.root{
+   border-radius: 0.5rem;
+
+   input{
+      border: none;
+      background: var(--background);
+      color: var(--lightTextColor);
+      font-size: 1.5rem;
+      padding: 1rem 3rem;
+      border-radius: 1rem;
+      outline: none;
+      width: 15rem;
+   }
+}
+
+.inputBlock{
+   position: relative;
+}
+.searchIcon{
+   position: absolute;
+   top: 50%;
+   left: -1.25rem;
+   transform: translate(100%, -50%);
+}
